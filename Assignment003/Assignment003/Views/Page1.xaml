@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Assignment003.Views.Page1">
+    <ContentPage.Content>
+        <StackLayout Spacing="10" Margin="10">
+            <Grid>
+
+                <Grid.RowDefinitions>
+
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+
+                </Grid.ColumnDefinitions>
+
+                <Label Grid.Row="0" Grid.Column="0" VerticalOptions="Center" Text="Weight(kg) "
+                       TextColor="ForestGreen" FontSize="Medium" Grid.ColumnSpan="2"/>
+
+                <Label Grid.Row="1" Grid.Column="0" VerticalOptions="Center" Text="Height(cm) "
+                       TextColor="blue" FontSize="Medium"  Grid.ColumnSpan="2"/>
+
+                <Entry Grid.Row="0" Grid.Column="3" VerticalOptions="Center" Keyboard="Numeric"
+                       FontSize="Medium" x:Name="entryKg"/>
+
+                <Entry Grid.Row="1" Grid.Column="3" VerticalOptions="Center" Keyboard="Numeric"
+                       FontSize="Medium" x:Name="entryCm"/>
+
+                <Label Grid.Row="0" Grid.Column="2" VerticalOptions="Center" HorizontalTextAlignment="End" 
+                       Text="(kg)" TextColor="Red" FontSize="Medium"/>
+
+                <Label Grid.Row="1" Grid.Column="2" VerticalOptions="Center" HorizontalTextAlignment="End" 
+                       Text="(cm)" TextColor="Red" FontSize="Medium"/>
+
+
+                <Label Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="4" HorizontalOptions="Center"
+                       VerticalOptions="Center" Text="Result" FontSize="Large" FontAttributes="Bold"/>
+
+                <Grid Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="4" BackgroundColor="Aqua" 
+                      Margin="7" Padding="7">
+
+                    <Grid.RowDefinitions>
+
+                        <RowDefinition Height="50"/>
+
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+
+                    </Grid.ColumnDefinitions>
+
+
+                    <Label Grid.Row="0" Grid.Column="0" Text="BMI: " VerticalOptions="Center" 
+                           FontSize="Medium" FontAttributes="Bold"/>
+
+                    <Label Grid.Row="0" Grid.Column="1" Text="(result)" VerticalOptions="Center" 
+                           FontSize="Medium" FontAttributes="Bold" HorizontalOptions="End" x:Name="lblAnswer"/>
+
+                </Grid>
+
+                <Button Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="4" x:Name="calcButton"                        
+                        HorizontalOptions="Center" BackgroundColor="Orange" TextColor="White"
+                        FontSize="Large" FontAttributes="Bold" Text="Calculate" CornerRadius="7"
+                        Clicked="calcButton_Clicked"/>
+
+                <Button Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="4" x:Name="resetButton"                        
+                        HorizontalOptions="Center" BackgroundColor="Gray" TextColor="White"
+                        FontSize="Large" FontAttributes="Bold" Text="Reset" CornerRadius="7"
+                        Clicked="resetButton_Clicked"/>
+
+
+
+
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

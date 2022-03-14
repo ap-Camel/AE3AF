@@ -1,0 +1,15 @@
+C:\Users\Ayman\source\repos\Assignment003\Assignment003\Assignment003\bin\Debug\netstandard2.0\Assignment003.deps.json
+C:\Users\Ayman\source\repos\Assignment003\Assignment003\Assignment003\bin\Debug\netstandard2.0\Assignment003.dll
+C:\Users\Ayman\source\repos\Assignment003\Assignment003\Assignment003\bin\Debug\netstandard2.0\ref\Assignment003.dll
+C:\Users\Ayman\source\repos\Assignment003\Assignment003\Assignment003\bin\Debug\netstandard2.0\Assignment003.pdb
+C:\Users\Ayman\source\repos\Assignment003\Assignment003\Assignment003\obj\Debug\netstandard2.0\Assignment003.csprojAssemblyReference.cache
+C:\Users\Ayman\source\repos\Assignment003\Assignment003\Assignment003\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Ayman\source\repos\Assignment003\Assignment003\Assignment003\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Ayman\source\repos\Assignment003\Assignment003\Assignment003\obj\Debug\netstandard2.0\Views\Page1.xaml.g.cs
+C:\Users\Ayman\source\repos\Assignment003\Assignment003\Assignment003\obj\Debug\netstandard2.0\Assignment003.AssemblyInfoInputs.cache
+C:\Users\Ayman\source\repos\Assignment003\Assignment003\Assignment003\obj\Debug\netstandard2.0\Assignment003.AssemblyInfo.cs
+C:\Users\Ayman\source\repos\Assignment003\Assignment003\Assignment003\obj\Debug\netstandard2.0\Assignment003.csproj.CoreCompileInputs.cache
+C:\Users\Ayman\source\repos\Assignment003\Assignment003\Assignment003\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Ayman\source\repos\Assignment003\Assignment003\Assignment003\obj\Debug\netstandard2.0\Assignment003.dll
+C:\Users\Ayman\source\repos\Assignment003\Assignment003\Assignment003\obj\Debug\netstandard2.0\ref\Assignment003.dll
+C:\Users\Ayman\source\repos\Assignment003\Assignment003\Assignment003\obj\Debug\netstandard2.0\Assignment003.pdb
